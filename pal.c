@@ -1,0 +1,20 @@
+#include<stdio.h>
+pallindrome()
+{
+int n,r,sum=0,temp;
+printf("\n enter the number=");
+scanf("%d",&n);
+temp=n;
+while(n>0)
+{
+r=n%10;
+sum=(sum*10)+r;
+n=n/10;
+}
+if(temp==sum)
+printf("\n palindrome number ");
+else
+printf("not palindrome");
+// return 0;
+}
+
