@@ -2,7 +2,7 @@
 pallindrome()
 {
 int n,r,sum=0,temp;
-printf("\n enter the number=");
+printf("\nenter the number=");
 scanf("%d",&n);
 temp=n;
 while(n>0)
